@@ -1,0 +1,22 @@
+{
+  "name": "crud-express-mongodb",
+  "version": "1.0.0",
+  "description": "Mongo and Express Practice Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon server.js"
+  },
+  "author": "Devin Sweeting",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^7.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongodb": "~3.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
